@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AF64B5920F56BE10068DC7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF64B5820F56BE10068DC7F /* AppDelegate.swift */; };
+		1AF64B5B20F56BE10068DC7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF64B5A20F56BE10068DC7F /* ViewController.swift */; };
+		1AF64B5E20F56BE10068DC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF64B5C20F56BE10068DC7F /* Main.storyboard */; };
+		1AF64B6020F56BE30068DC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF64B5F20F56BE30068DC7F /* Assets.xcassets */; };
+		1AF64B6320F56BE30068DC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF64B6120F56BE30068DC7F /* LaunchScreen.storyboard */; };
+		1AF64B6E20F56BE30068DC7F /* MQMapSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF64B6D20F56BE30068DC7F /* MQMapSampleAppTests.swift */; };
+		1AF64B7920F56BE30068DC7F /* MQMapSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF64B7820F56BE30068DC7F /* MQMapSampleAppUITests.swift */; };
+		1AF64B8720F56D340068DC7F /* POIDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF64B8620F56D340068DC7F /* POIDetailsView.swift */; };
+		1AF64B8920F56D490068DC7F /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF64B8820F56D490068DC7F /* CustomMapView.swift */; };
+		34551DF2BBA1BA8723435DC9 /* Pods_MQMapSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69FD11A67BE4D0ED8B70A60 /* Pods_MQMapSampleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AF64B6A20F56BE30068DC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AF64B4D20F56BE10068DC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AF64B5420F56BE10068DC7F;
+			remoteInfo = MQMapSampleApp;
+		};
+		1AF64B7520F56BE30068DC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AF64B4D20F56BE10068DC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AF64B5420F56BE10068DC7F;
+			remoteInfo = MQMapSampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AF64B5520F56BE10068DC7F /* MQMapSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQMapSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF64B5820F56BE10068DC7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AF64B5A20F56BE10068DC7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AF64B5D20F56BE10068DC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AF64B5F20F56BE30068DC7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AF64B6220F56BE30068DC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AF64B6420F56BE30068DC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF64B6920F56BE30068DC7F /* MQMapSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQMapSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF64B6D20F56BE30068DC7F /* MQMapSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQMapSampleAppTests.swift; sourceTree = "<group>"; };
+		1AF64B6F20F56BE30068DC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF64B7420F56BE30068DC7F /* MQMapSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQMapSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF64B7820F56BE30068DC7F /* MQMapSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQMapSampleAppUITests.swift; sourceTree = "<group>"; };
+		1AF64B7A20F56BE30068DC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF64B8620F56D340068DC7F /* POIDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIDetailsView.swift; sourceTree = "<group>"; };
+		1AF64B8820F56D490068DC7F /* CustomMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
+		8291CA9AEB12ADB55B8E0F7F /* Pods-MQMapSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQMapSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MQMapSampleApp/Pods-MQMapSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		D69FD11A67BE4D0ED8B70A60 /* Pods_MQMapSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQMapSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59B64478BF1D5CC9ED852B9 /* Pods-MQMapSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQMapSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MQMapSampleApp/Pods-MQMapSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AF64B5220F56BE10068DC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34551DF2BBA1BA8723435DC9 /* Pods_MQMapSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF64B6620F56BE30068DC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF64B7120F56BE30068DC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C47E502429A538475B287D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F59B64478BF1D5CC9ED852B9 /* Pods-MQMapSampleApp.debug.xcconfig */,
+				8291CA9AEB12ADB55B8E0F7F /* Pods-MQMapSampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1AF64B4C20F56BE10068DC7F = {
+			isa = PBXGroup;
+			children = (
+				1AF64B5720F56BE10068DC7F /* MQMapSampleApp */,
+				1AF64B6C20F56BE30068DC7F /* MQMapSampleAppTests */,
+				1AF64B7720F56BE30068DC7F /* MQMapSampleAppUITests */,
+				1AF64B5620F56BE10068DC7F /* Products */,
+				06C47E502429A538475B287D /* Pods */,
+				D53C75A93C2A6D253B25EBD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AF64B5620F56BE10068DC7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AF64B5520F56BE10068DC7F /* MQMapSampleApp.app */,
+				1AF64B6920F56BE30068DC7F /* MQMapSampleAppTests.xctest */,
+				1AF64B7420F56BE30068DC7F /* MQMapSampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AF64B5720F56BE10068DC7F /* MQMapSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				1AF64B5820F56BE10068DC7F /* AppDelegate.swift */,
+				1AF64B8620F56D340068DC7F /* POIDetailsView.swift */,
+				1AF64B8820F56D490068DC7F /* CustomMapView.swift */,
+				1AF64B5A20F56BE10068DC7F /* ViewController.swift */,
+				1AF64B5C20F56BE10068DC7F /* Main.storyboard */,
+				1AF64B5F20F56BE30068DC7F /* Assets.xcassets */,
+				1AF64B6120F56BE30068DC7F /* LaunchScreen.storyboard */,
+				1AF64B6420F56BE30068DC7F /* Info.plist */,
+			);
+			path = MQMapSampleApp;
+			sourceTree = "<group>";
+		};
+		1AF64B6C20F56BE30068DC7F /* MQMapSampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AF64B6D20F56BE30068DC7F /* MQMapSampleAppTests.swift */,
+				1AF64B6F20F56BE30068DC7F /* Info.plist */,
+			);
+			path = MQMapSampleAppTests;
+			sourceTree = "<group>";
+		};
+		1AF64B7720F56BE30068DC7F /* MQMapSampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AF64B7820F56BE30068DC7F /* MQMapSampleAppUITests.swift */,
+				1AF64B7A20F56BE30068DC7F /* Info.plist */,
+			);
+			path = MQMapSampleAppUITests;
+			sourceTree = "<group>";
+		};
+		D53C75A93C2A6D253B25EBD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D69FD11A67BE4D0ED8B70A60 /* Pods_MQMapSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AF64B5420F56BE10068DC7F /* MQMapSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF64B7D20F56BE30068DC7F /* Build configuration list for PBXNativeTarget "MQMapSampleApp" */;
+			buildPhases = (
+				33C5CBE0C0B4C0BBC0B886A9 /* [CP] Check Pods Manifest.lock */,
+				1AF64B5120F56BE10068DC7F /* Sources */,
+				1AF64B5220F56BE10068DC7F /* Frameworks */,
+				1AF64B5320F56BE10068DC7F /* Resources */,
+				20E8FE3FB7AE685C0EA6E93F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQMapSampleApp;
+			productName = MQMapSampleApp;
+			productReference = 1AF64B5520F56BE10068DC7F /* MQMapSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AF64B6820F56BE30068DC7F /* MQMapSampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF64B8020F56BE30068DC7F /* Build configuration list for PBXNativeTarget "MQMapSampleAppTests" */;
+			buildPhases = (
+				1AF64B6520F56BE30068DC7F /* Sources */,
+				1AF64B6620F56BE30068DC7F /* Frameworks */,
+				1AF64B6720F56BE30068DC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AF64B6B20F56BE30068DC7F /* PBXTargetDependency */,
+			);
+			name = MQMapSampleAppTests;
+			productName = MQMapSampleAppTests;
+			productReference = 1AF64B6920F56BE30068DC7F /* MQMapSampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AF64B7320F56BE30068DC7F /* MQMapSampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF64B8320F56BE30068DC7F /* Build configuration list for PBXNativeTarget "MQMapSampleAppUITests" */;
+			buildPhases = (
+				1AF64B7020F56BE30068DC7F /* Sources */,
+				1AF64B7120F56BE30068DC7F /* Frameworks */,
+				1AF64B7220F56BE30068DC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AF64B7620F56BE30068DC7F /* PBXTargetDependency */,
+			);
+			name = MQMapSampleAppUITests;
+			productName = MQMapSampleAppUITests;
+			productReference = 1AF64B7420F56BE30068DC7F /* MQMapSampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AF64B4D20F56BE10068DC7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = MapQuest;
+				TargetAttributes = {
+					1AF64B5420F56BE10068DC7F = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					1AF64B6820F56BE30068DC7F = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 1AF64B5420F56BE10068DC7F;
+					};
+					1AF64B7320F56BE30068DC7F = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 1AF64B5420F56BE10068DC7F;
+					};
+				};
+			};
+			buildConfigurationList = 1AF64B5020F56BE10068DC7F /* Build configuration list for PBXProject "MQMapSampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AF64B4C20F56BE10068DC7F;
+			productRefGroup = 1AF64B5620F56BE10068DC7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AF64B5420F56BE10068DC7F /* MQMapSampleApp */,
+				1AF64B6820F56BE30068DC7F /* MQMapSampleAppTests */,
+				1AF64B7320F56BE30068DC7F /* MQMapSampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AF64B5320F56BE10068DC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF64B6320F56BE30068DC7F /* LaunchScreen.storyboard in Resources */,
+				1AF64B6020F56BE30068DC7F /* Assets.xcassets in Resources */,
+				1AF64B5E20F56BE10068DC7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF64B6720F56BE30068DC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF64B7220F56BE30068DC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20E8FE3FB7AE685C0EA6E93F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MQMapSampleApp/Pods-MQMapSampleApp-frameworks.sh",
+				"${PODS_ROOT}/MQCore/MQCore-1.0.0-beta.7/MQCore.framework",
+				"${PODS_ROOT}/MapQuestMaps/MapQuestMaps-4.0.0/MapQuestMaps.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MQCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapQuestMaps.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MQMapSampleApp/Pods-MQMapSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33C5CBE0C0B4C0BBC0B886A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MQMapSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF64B5120F56BE10068DC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF64B5B20F56BE10068DC7F /* ViewController.swift in Sources */,
+				1AF64B8720F56D340068DC7F /* POIDetailsView.swift in Sources */,
+				1AF64B8920F56D490068DC7F /* CustomMapView.swift in Sources */,
+				1AF64B5920F56BE10068DC7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF64B6520F56BE30068DC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF64B6E20F56BE30068DC7F /* MQMapSampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF64B7020F56BE30068DC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF64B7920F56BE30068DC7F /* MQMapSampleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AF64B6B20F56BE30068DC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AF64B5420F56BE10068DC7F /* MQMapSampleApp */;
+			targetProxy = 1AF64B6A20F56BE30068DC7F /* PBXContainerItemProxy */;
+		};
+		1AF64B7620F56BE30068DC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AF64B5420F56BE10068DC7F /* MQMapSampleApp */;
+			targetProxy = 1AF64B7520F56BE30068DC7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AF64B5C20F56BE10068DC7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AF64B5D20F56BE10068DC7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AF64B6120F56BE30068DC7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AF64B6220F56BE30068DC7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AF64B7B20F56BE30068DC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AF64B7C20F56BE30068DC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AF64B7E20F56BE30068DC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F59B64478BF1D5CC9ED852B9 /* Pods-MQMapSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2244V2577;
+				INFOPLIST_FILE = MQMapSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapquest.MQMapSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AF64B7F20F56BE30068DC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8291CA9AEB12ADB55B8E0F7F /* Pods-MQMapSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2244V2577;
+				INFOPLIST_FILE = MQMapSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapquest.MQMapSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AF64B8120F56BE30068DC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2244V2577;
+				INFOPLIST_FILE = MQMapSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapquest.MQMapSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQMapSampleApp.app/MQMapSampleApp";
+			};
+			name = Debug;
+		};
+		1AF64B8220F56BE30068DC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2244V2577;
+				INFOPLIST_FILE = MQMapSampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapquest.MQMapSampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQMapSampleApp.app/MQMapSampleApp";
+			};
+			name = Release;
+		};
+		1AF64B8420F56BE30068DC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2244V2577;
+				INFOPLIST_FILE = MQMapSampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapquest.MQMapSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MQMapSampleApp;
+			};
+			name = Debug;
+		};
+		1AF64B8520F56BE30068DC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2244V2577;
+				INFOPLIST_FILE = MQMapSampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapquest.MQMapSampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MQMapSampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AF64B5020F56BE10068DC7F /* Build configuration list for PBXProject "MQMapSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF64B7B20F56BE30068DC7F /* Debug */,
+				1AF64B7C20F56BE30068DC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF64B7D20F56BE30068DC7F /* Build configuration list for PBXNativeTarget "MQMapSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF64B7E20F56BE30068DC7F /* Debug */,
+				1AF64B7F20F56BE30068DC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF64B8020F56BE30068DC7F /* Build configuration list for PBXNativeTarget "MQMapSampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF64B8120F56BE30068DC7F /* Debug */,
+				1AF64B8220F56BE30068DC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF64B8320F56BE30068DC7F /* Build configuration list for PBXNativeTarget "MQMapSampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF64B8420F56BE30068DC7F /* Debug */,
+				1AF64B8520F56BE30068DC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AF64B4D20F56BE10068DC7F /* Project object */;
+}
