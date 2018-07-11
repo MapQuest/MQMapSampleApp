@@ -7,7 +7,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>NSLocationWhenInUseUsageDescription</string>
 	<key>MQApplicationKey</key>
-	<string>AxZCbBYeZrvZMOsn8ED3HGSLNQy4dMWP</string>
+	<string>Your MapQuest application key will go here</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
